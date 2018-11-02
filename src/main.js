@@ -5,8 +5,10 @@ import App from './App'
 import router from './router'
 import './assets/css/reset.css'
 import './assets/flexible/flexible.debug.js'
-Vue.config.productionTip = false
 
+Vue.config.productionTip = false
+import Swiper from "swiper"; 
+import "swiper/dist/css/swiper.min.css"
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

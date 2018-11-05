@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
-import footerss from '@/pages/footerss.vue'
+import xinx from '@/pages/xinx.vue'
 import px from '@/pages/px/px.vue'
 import pxbaomingxinxi from '@/pages/px/pxbaomingxinxi.vue'
 import pxmonikaoshi from '@/pages/px/pxmonikaoshi.vue'
@@ -23,9 +23,9 @@ export default new Router({
       name: 'HelloWorld',
       component: HelloWorld
     },{
-      path: '/footerss',
-      name: 'footerss',
-      component: footerss
+      path: '/xinx',
+      name: 'xinx',
+      component: xinx
     },{
       path: '/px',
       name: 'px',

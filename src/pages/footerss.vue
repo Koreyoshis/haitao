@@ -1,17 +1,17 @@
 <template>
   <div class="hello">
-    
+    <footers></footers>
   </div>
 </template>
 
 <script>
+import footers  from "../components/footers"
 export default {
-  name: 'HelloWorld',
+  name: 'footerss',
+  components:{footers}
  
 }
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
 </style>

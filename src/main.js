@@ -7,6 +7,7 @@ import './assets/css/reset.css'
 import './assets/flexible/flexible.debug.js'
 import './assets/font_dqoa272d01/iconfont.css'
 
+
 Vue.config.productionTip = false
 import Swiper from "swiper"; 
 import "swiper/dist/css/swiper.min.css"

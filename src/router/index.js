@@ -73,7 +73,7 @@ export default new Router({
     },{
       path: '/zpjieshaotanchuk',
       name: 'zpjieshaotanchuk',
-      component: zpjieshaotanchuk
+      component: zpzhaopinxiangqing
     }
   ]
 })

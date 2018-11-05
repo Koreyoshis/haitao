@@ -1,18 +1,15 @@
 <template>
   <div id="app">
-
-
-    <!-- <img src="./assets/logo.png"> -->
-    <router-view/>
+    11111111111111
   </div>
 </template>
 
 <script>
-
 export default {
-  name: 'App'
+  name: 'lcx'
 }
 </script>
 
 <style>
+
 </style>

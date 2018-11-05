@@ -1,14 +1,13 @@
 <template>
   <div class="hello">
-    <zpsy></zpsy>
+    
   </div>
 </template>
 
 <script>
-import zpsy from "../components/zpsy.vue"
 export default {
-  name: 'zp_ym',
-  components:{zpsy}
+  name: 'pxbaomingxinxi',
+ 
 }
 </script>
 

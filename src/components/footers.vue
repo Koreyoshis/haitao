@@ -8,7 +8,7 @@
       <i class="iconfont icon-peixun"></i>
       <span>培训</span>
     </div>
-     <div class="zp">
+     <div class="sc">
       <i class="iconfont icon-chuan"></i>
       <span>上船</span>
     </div>
@@ -35,14 +35,26 @@ export default {
   height: 1.173333rem;
   border-top: .013333rem solid #d0d0d0;
 }
-.zp,.px,.zp,.zp{
+.zp,.px,.sc,.zp{
   flex: 1;
   display: flex;
   flex-direction: column;
   text-align: center;
   justify-content: center;
 }
-.zp,.px,.zp,.zp i{
+.zp,.px,.sc,.zp span{
   font-size: .4rem;
+}
+.zp i{
+  font-size: .506667rem
+}
+.px i{
+  font-size: .506667rem
+}
+.zp i{
+  font-size: .506667rem
+}
+.sc i{
+  font-size: .506667rem
 }
 </style>

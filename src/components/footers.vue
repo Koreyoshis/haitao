@@ -34,6 +34,7 @@ export default {
   width: 100%;
   height: 1.173333rem;
   border-top: .013333rem solid #d0d0d0;
+  background: #fff;
 }
 .zp,.px,.sc,.zp{
   flex: 1;

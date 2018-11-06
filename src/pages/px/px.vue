@@ -2,9 +2,7 @@
   <div class="hello">
     <header class="header">
     <div class="tou">
-       <p>线下培训</p>
-       <p>在线培训</p>
-       <p>模拟面试</p>
+       <p v-for="(v,i) in arr"  @click="didi = i" :class="{active: didi == i}">{{v}}</p>
     </div>
    </header>
    <div class="nav">
@@ -70,7 +68,13 @@
 import footers  from "../../components/footers"
 export default {
   name: 'px',
-  components:{footers}
+  components:{footers},
+  data () {
+    return {
+      arr:['线下培训','在线培训','模拟面试'],
+     didi:0
+    }
+  }
 }
 </script>
 
@@ -94,7 +98,6 @@ export default {
   margin: 0 auto;
   display: flex;
   border: 1px solid white;
-  border-radius:.133333rem;
 }
 .tou p{
   flex: 1; 
@@ -105,12 +108,12 @@ export default {
   text-align: center;
   color: white;
 }
-.tou p:first-child{
+/* .tou p:first-child{
   background: white;
   border-top-left-radius: .133333rem;
   border-bottom-left-radius: .133333rem;
   color: #27c1b4;
-}
+} */
 .nav{
   width: 100%;
   height: 1rem;
@@ -144,7 +147,6 @@ export default {
 .matter dl dd{
   padding-left: .4rem;
   padding-top: .533333rem;
-
 }
 .matter dl dd h1{
   font-size: .333333rem;
@@ -166,7 +168,11 @@ export default {
   height: .4rem;
   border: none;
   outline: none;
-  font-size:.293333rem;
   margin-left: 8.533333rem;
+  font-size: .266667rem;
+}
+.tou p.active{
+ background: white;
+ color: #27c1b4;
 }
 </style>

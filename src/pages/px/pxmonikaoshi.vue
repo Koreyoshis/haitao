@@ -2,9 +2,7 @@
   <div class="hello">
     <header class="header">
     <div class="tou">
-       <p>线下培训</p>
-       <p>在线培训</p>
-       <p>模拟面试</p>
+       <p v-for="(v,i) in arr"  @click="didi = i" :class="{active: didi == i}">{{v}}</p>
     </div>
    </header>
    <div class="neirong">
@@ -110,6 +108,12 @@ export default {
   name: 'pxmonikaoshi',
   components:{
     footers
+  },
+  data () {
+    return {
+      arr:['线下培训','在线培训','模拟面试'],
+      didi:0
+    }
   }
 }
 </script>
@@ -134,7 +138,6 @@ export default {
   margin: 0 auto;
   display: flex;
   border: 1px solid white;
-  border-radius:.133333rem;
 }
 .tou p{
   flex: 1; 
@@ -145,12 +148,12 @@ export default {
   font-size: .4rem;
   text-align: center;
 }
-.tou p:last-child{
+/* .tou p:last-child{
   background: white;
   color: #27c1b4;
   border-top-right-radius: .133333rem;
   border-bottom-right-radius: .133333rem;
-}
+} */
 .neirong{
   width: 100%;
   height: 14.733333rem;
@@ -180,5 +183,9 @@ export default {
   padding: 0 .4rem;
   background: #e1f6f4;
   border-radius: .066667rem;
+}
+.tou p.active{
+  background: white;
+  color: #27c1b4;
 }
 </style>

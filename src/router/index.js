@@ -14,6 +14,7 @@ import zphaiyanghexiehao from '@/pages/zp/zphaiyanghexiehao.vue'
 import zpshouye from '@/pages/zp/zpshouye.vue'
 import zpzhaopinxiangqing from '@/pages/zp/zpzhaopinxiangqing.vue'
 import zpjieshaotanchuk from '@/pages/zp/zpjieshaotanchuk.vue'
+
 Vue.use(Router)
 
 export default new Router({

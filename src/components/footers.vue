@@ -2,15 +2,15 @@
   <div class="dd">
     <div class="zp">
       <i class="iconfont icon-zhaopinqiatan"></i>
-      <span>招聘</span>
+      <router-link tag="span" to="/zpshouye"> 招聘 </router-link>
     </div>
      <div class="px">
       <i class="iconfont icon-peixun"></i>
-      <span>培训</span>
+      <router-link tag="span" to="/px"> 培训 </router-link>
     </div>
      <div class="sc">
       <i class="iconfont icon-chuan"></i>
-      <span>上船</span>
+     <router-link tag="span" to="/xinx"> 上船</router-link>
     </div>
      <div class="zp">
       <i class="iconfont icon-wode"></i>
@@ -21,6 +21,7 @@
 </template>
 
 <script>
+
 export default {
   name: 'footers',
  

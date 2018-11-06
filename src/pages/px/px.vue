@@ -2,7 +2,9 @@
   <div class="hello">
     <header class="header">
     <div class="tou">
-       <p v-for="(v,i) in arr"  @click="didi = i" :class="{active: didi == i}">{{v}}</p>
+       <p>线下培训</p>
+       <router-link tag="p" to="/pxxiangqing">在线培训</router-link>
+       <router-link tag="p" to="/pxmonikaosi">模拟考试</router-link>
     </div>
    </header>
    <div class="nav">
@@ -18,7 +20,7 @@
          <p>各级厨师 初级服务员 酒吧服务员 免税店 摄影店 摄影师 娱乐免税店 摄影师 娱乐....</p>
        </dd>
      </dl>
-     <button class="btn">报名</button>
+      <router-link class="btn" tag="button" to="/pxbaomingxinxi">报名</router-link>
    </div>
    <div class="matter">
      <dl>
@@ -28,7 +30,7 @@
          <p>各级厨师 初级服务员 酒吧服务员 免税店 摄影店 摄影师 娱乐免税店 摄影师 娱乐....</p>
        </dd>
      </dl>
-     <button class="btn">报名</button>
+     <router-link class="btn" tag="button" to="/pxbaomingxinxi">报名</router-link>
    </div>
    <div class="matter">
      <dl>
@@ -38,7 +40,7 @@
          <p>各级厨师 初级服务员 酒吧服务员 免税店 摄影店 摄影师 娱乐免税店 摄影师 娱乐....</p>
        </dd>
      </dl>
-     <button class="btn">报名</button>
+     <router-link class="btn" tag="button" to="/pxbaomingxinxi">报名</router-link>
    </div>
    <div class="matter">
      <dl>
@@ -48,7 +50,7 @@
          <p>各级厨师 初级服务员 酒吧服务员 免税店 摄影店 摄影师 娱乐免税店 摄影师 娱乐....</p>
        </dd>
      </dl>
-     <button class="btn">报名</button>
+     <router-link class="btn" tag="button" to="/pxbaomingxinxi">报名</router-link>
    </div>
    <div class="matter">
      <dl>
@@ -58,7 +60,7 @@
          <p>各级厨师 初级服务员 酒吧服务员 免税店 摄影店 摄影师 娱乐免税店 摄影师 娱乐....</p>
        </dd>
      </dl>
-     <button class="btn">报名</button>
+     <router-link class="btn" tag="button" to="/pxbaomingxinxi">报名</router-link>
    </div>
    <footers></footers>
   </div>
@@ -69,12 +71,12 @@ import footers  from "../../components/footers"
 export default {
   name: 'px',
   components:{footers},
-  data () {
-    return {
-      arr:['线下培训','在线培训','模拟面试'],
-     didi:0
-    }
-  }
+  // data () {
+  //   return {
+  //     arr:['线下培训','在线培训','模拟面试'],
+  //    didi:0
+  //   }
+  // }
 }
 </script>
 
@@ -108,12 +110,10 @@ export default {
   text-align: center;
   color: white;
 }
-/* .tou p:first-child{
+.tou p:first-child{
   background: white;
-  border-top-left-radius: .133333rem;
-  border-bottom-left-radius: .133333rem;
   color: #27c1b4;
-} */
+}
 .nav{
   width: 100%;
   height: 1rem;

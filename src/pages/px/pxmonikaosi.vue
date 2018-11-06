@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <header class="header">
-      <p>〈</p>
+      <router-link tag="p" to="/pxbaomingxinxi"><</router-link>
       <p>一对一模拟考试</p>
       <p><img src="../../assets/images/pxkaoshi1.jpg" alt=""></p>
     </header>
@@ -65,7 +65,7 @@
       <p>讲课清晰，重点明了教育部留学回国人员科研启动基金评审专家</p>
     </div>
     <footer class="footer">
-      <h1>预约面试</h1>
+       <router-link tag="h1" to="/pxmonikaoshi">预约面试</router-link>
     </footer>
   </div>
 </template>

@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <header class="header">
-      <p>〈</p>
+      <router-link  tag="p" to="/px"><</router-link>
       <p>培训课程详情</p>
       <p><img src="../../assets/images/pxxiangqing1.jpg" alt=""></p>
     </header>
@@ -55,7 +55,7 @@
    </div>
    <div class="footer">
      <div class="footers">
-       <h1>预约报名</h1>
+        <router-link tag="h1" to="/pxmonikaoshi">提交</router-link>
      </div>
    </div>
   </div>

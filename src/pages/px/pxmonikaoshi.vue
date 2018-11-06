@@ -1,8 +1,10 @@
 <template>
   <div class="hello">
     <header class="header">
-    <div class="tou">
-       <p v-for="(v,i) in arr"  @click="didi = i" :class="{active: didi == i}">{{v}}</p>
+    <div class="tou"> 
+       <router-link tag="p" to="/px">线下培训</router-link>
+       <p>在线培训</p>
+       <p>模拟考试</p>
     </div>
    </header>
    <div class="neirong">
@@ -148,12 +150,10 @@ export default {
   font-size: .4rem;
   text-align: center;
 }
-/* .tou p:last-child{
+.tou p:last-child{
   background: white;
   color: #27c1b4;
-  border-top-right-radius: .133333rem;
-  border-bottom-right-radius: .133333rem;
-} */
+}
 .neirong{
   width: 100%;
   height: 14.733333rem;

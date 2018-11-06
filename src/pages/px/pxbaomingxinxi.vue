@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <header class="header">
-      <p>〈</p>
+      <router-link tag="p" to="/px"><</router-link>
       <p>培训课程详情</p>
       <p></p>
     </header>
@@ -18,7 +18,7 @@
       <p>确认具体内容</p>
     </div>
     <footer class="footer">
-      <h1>提交</h1>
+       <router-link tag="h1" to="/pxmonikaosi">提交</router-link>
     </footer>
   </div>
 </template>

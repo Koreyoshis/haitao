@@ -2,7 +2,7 @@
   <div class="dd">
     <div class="zp">
       <i class="iconfont icon-zhaopinqiatan"></i>
-      <router-link tag="span" to="/zpshouye"> 招聘 </router-link>
+      <router-link tag="span" to="/zpshouye" > 招聘 </router-link>
     </div>
      <div class="px">
       <i class="iconfont icon-peixun"></i>
@@ -23,11 +23,11 @@
 <script>
 
 export default {
-  name: 'footers',
- 
+  name: 'footers'
 }
 </script>
 <style scoped>
+
 .dd{
   display: flex;
   position: fixed;

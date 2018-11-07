@@ -26,9 +26,10 @@
     <div class="kong"></div>
     <div class="mianshi">
       <h1>面试时间</h1>
-      <span>27日下午</span>
+      <span v-for="(v,i) in arr" @click="di = i" :class="{active: di == i}">{{v}}</span>
+      <!-- <span>27日下午</span>
       <span>28日上午</span>
-      <span>30日晚上</span>
+      <span>30日晚上</span> -->
     </div>
     <div class="kong"></div>
     <div class="pinglun">
@@ -73,7 +74,12 @@
 <script>
 export default {
   name: 'pxmonikaosi',
- 
+ data () {
+   return {
+     arr:["27日下午","28日上午","30日晚上"],
+     di:0
+   }
+ }
 }
 </script>
 
@@ -170,9 +176,13 @@ export default {
     font-size: .4rem;
     color: #27c1b4;
   }
-  .mianshi span:nth-child(2){
+  /* .mianshi span:nth-child(2){
     border: 1px solid #ccc;
     color: #ccc;
+  } */
+  .mianshi span.active{
+     border: 1px solid #ccc;
+     color: #ccc;
   }
   .pinglun{
     width: 100%;

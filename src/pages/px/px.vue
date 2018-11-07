@@ -8,8 +8,9 @@
     </div>
    </header>
    <div class="nav">
-     <p>英语</p>
-     <p>海事安全培训</p>
+     <p v-for="(v,i) in arr" @click="didi = i" :class="{active:didi == i}">{{v}}</p>
+     <!-- <p>英语</p>
+     <p>海事安全培训</p> -->
    </div>
    <div class="kong"></div>
    <div class="matter">
@@ -71,12 +72,12 @@ import footers  from "../../components/footers"
 export default {
   name: 'px',
   components:{footers},
-  // data () {
-  //   return {
-  //     arr:['线下培训','在线培训','模拟面试'],
-  //    didi:0
-  //   }
-  // }
+  data () {
+    return {
+      arr:['英语','海事安全培训'],
+     didi:0
+    }
+  }
 }
 </script>
 
@@ -123,7 +124,11 @@ export default {
 }
 .nav p{
   padding: 0 1.333333rem;
-
+  height: 1rem;
+  line-height: 1rem;
+}
+.nav p.active{
+  border-bottom: 1px solid blue;
 }
 .kong{
   width: 100%;

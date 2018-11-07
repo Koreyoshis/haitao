@@ -67,6 +67,7 @@ export default {
     .top ul li:nth-child(2){
         color:#fff;
         font-size:18px;
+        margin-left:.933333rem;
     }
     .top ul li:nth-child(3) img{
         width:.533333rem;

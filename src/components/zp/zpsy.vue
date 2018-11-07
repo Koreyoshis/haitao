@@ -49,7 +49,7 @@
         </div>
         <div class="ms">
                 <ul>
-                    <li><img src="../../assets/images/lcx2.png" alt=""></li>
+                    <li><img src="../../assets/images/lcx3.png" alt=""></li>
                     <li>
                         <h3>3月20号  公主邮轮  上海现场面试</h3>
                         <p>厨师  |  服务员  |  酒吧服务员  |  免税店  |  摄影师  |  酒吧服务员  |  免税店  |  摄影师</p>
@@ -62,7 +62,7 @@
             </div>
         <div class="ms">
             <ul>
-                <li><img src="../../assets/images/lcx2.png" alt=""></li>
+                <li><img src="../../assets/images/lcx4.png" alt=""></li>
                 <li>
                     <h3>3月20号  公主邮轮  上海现场面试</h3>
                     <p>厨师  |  服务员  |  酒吧服务员  |  免税店  |  摄影师  |  酒吧服务员  |  免税店  |  摄影师</p>
@@ -88,7 +88,7 @@
         </div>
         <div class="ms">
             <ul>
-                <li><img src="../../assets/images/lcx2.png" alt=""></li>
+                <li><img src="../../assets/images/lcx3.png" alt=""></li>
                 <li>
                     <h3>3月20号  公主邮轮  上海现场面试</h3>
                     <p>厨师  |  服务员  |  酒吧服务员  |  免税店  |  摄影师  |  酒吧服务员  |  免税店  |  摄影师</p>
@@ -101,7 +101,7 @@
         </div>   
         <div class="ms">
             <ul>
-                <li><img src="../../assets/images/lcx2.png" alt=""></li>
+                <li><img src="../../assets/images/lcx4.png" alt=""></li>
                 <li>
                     <h3>3月20号  公主邮轮  上海现场面试</h3>
                     <p>厨师  |  服务员  |  酒吧服务员  |  免税店  |  摄影师  |  酒吧服务员  |  免税店  |  摄影师</p>

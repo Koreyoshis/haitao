@@ -169,7 +169,7 @@ export default {
         width:9.466667rem;
         height:2.4rem;
         background:#fff;
-        margin-top:.266667rem;
+        margin:.266667rem auto;
     }
     .hzms ul{
         display: flex;

@@ -67,7 +67,50 @@
                 <li>海乘出行</li>
             </ul>
         </div>
-        <div class="scxw"></div>
+        <div class="scxw">
+               <ul>
+        <li>
+            <h3>在邮轮上印度客人点头Yes，摇头未必</h3>
+            <p>这是一个印度小女孩，名字太长，实在记不住，印象很深，我们早上九点开的门...</p>
+        </li>
+        <li><img src="../../assets/images/lcx28.png" alt=""></li>
+    </ul>
+    <ul>
+        <li>
+            <h3>在邮轮上印度客人点头Yes，摇头未必</h3>
+            <p>这是一个印度小女孩，名字太长，实在记不住，印象很深，我们早上九点开的门...</p>
+        </li>
+        <li><img src="../../assets/images/lcx29.png" alt=""></li>
+    </ul>
+    <ul>
+        <li>
+            <h3>在邮轮上印度客人点头Yes，摇头未必</h3>
+            <p>这是一个印度小女孩，名字太长，实在记不住，印象很深，我们早上九点开的门...</p>
+        </li>
+        <li><img src="../../assets/images/lcx30.png" alt=""></li>
+    </ul>
+    <ul>
+        <li>
+            <h3>在邮轮上印度客人点头Yes，摇头未必</h3>
+            <p>这是一个印度小女孩，名字太长，实在记不住，印象很深，我们早上九点开的门...</p>
+        </li>
+        <li><img src="../../assets/images/lcx28.png" alt=""></li>
+    </ul>
+    <ul>
+        <li>
+            <h3>在邮轮上印度客人点头Yes，摇头未必</h3>
+            <p>这是一个印度小女孩，名字太长，实在记不住，印象很深，我们早上九点开的门...</p>
+        </li>
+        <li><img src="../../assets/images/lcx29.png" alt=""></li>
+    </ul>
+    <ul>
+        <li>
+            <h3>在邮轮上印度客人点头Yes，摇头未必</h3>
+            <p>这是一个印度小女孩，名字太长，实在记不住，印象很深，我们早上九点开的门...</p>
+        </li>
+        <li><img src="../../assets/images/lcx30.png" alt=""></li>
+    </ul>
+        </div>
     </div>
   </div>
 </template>
@@ -128,5 +171,50 @@ export default {
     }
     .sccs ul li{
         height:.533333rem;
+    }
+    .box{
+        width:100%;
+        height:100%;
+        background:#fff;
+        margin-top:.266667rem;
+    }
+    .sccs ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left:.533333rem;
+        margin-right:.533333rem;
+    }
+    .sccs ul li{
+        width:1.8rem;
+        height:1rem;
+        text-align:center;
+        line-height:1rem;
+    }
+    .sccs ul li:nth-child(1){
+        border-bottom:1px solid #27c1b4;
+        color:#27c1b4;
+    }
+    .scxw ul{
+        margin-left:.266667rem;
+        margin-right:.266667rem;
+    }
+    .scxw ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top:.333333rem;
+    }
+    .scxw ul li h3{
+        font-size:.4rem;
+        
+    }
+    .scxw ul li p{
+        line-height:20px;
+        margin-top:.266667rem;
+    }
+    .scxw ul li img{
+        width:2.6rem;
+        height:1.933333rem;
     }
 </style>

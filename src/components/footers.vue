@@ -10,11 +10,11 @@
     </div>
      <div class="sc">
       <i class="iconfont icon-chuan"></i>
-     <router-link tag="span" to="/xinx"> 上船</router-link>
+       <router-link tag="span" to="/sc">我的</router-link>
     </div>
      <div class="zp">
       <i class="iconfont icon-wode"></i>
-      <span>我的</span>
+       <router-link tag="span" to="/xinx">我的</router-link>
     </div>
 
   </div>

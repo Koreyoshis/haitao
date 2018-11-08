@@ -104,7 +104,7 @@ export default new Router({
     },{
       path: '/scwz',
       name: 'scwz',
-      component: scwz
+      component: scwz                                                                                                                                                                                                                                                                                                                                                          
     }
   ]
 })

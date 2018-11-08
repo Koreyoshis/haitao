@@ -20,17 +20,13 @@
                 </select>
             </li>
             <li style="color: #a9a9a9">|</li>
-            <li><select name="" id="">
-                    <option value="">公司</option>
-                </select></li>
+            <li>
+                <router-link tag="select" to="/zpgongzhuyoulun"><option value="">公司</option></router-link>
+            </li>
             <li style="color: #a9a9a9">|</li>
-            <li><select name="" id="">
-                    <option value="">岗位</option>
-                </select></li>
+            <li><router-link tag="select" to="/zpgangwei"><option value="">岗位</option></router-link></li>
             <li style="color: #a9a9a9">|</li>
-            <li><select name="" id="">
-                    <option value="">详情</option>
-                </select></li>
+            <li><router-link tag="select" to="/zphaiyanghexiehao"><option value="">详情</option></router-link></li>
         </ul>
     </div>
     <div class="box">
@@ -38,7 +34,7 @@
             <ul>
                 <li><img src="../../assets/images/lcx2.png" alt=""></li>
                 <li>
-                    <h3>3月20号  公主邮轮  上海现场面试</h3>
+                    <router-link tag="h3" to="/zpzhaopinxiangqing">3月20号  公主邮轮  上海现场面试</router-link>
                     <p>厨师  |  服务员  |  酒吧服务员  |  免税店  |  摄影师  |  酒吧服务员  |  免税店  |  摄影师</p>
                 </li>
             </ul>
@@ -51,7 +47,7 @@
                 <ul>
                     <li><img src="../../assets/images/lcx3.png" alt=""></li>
                     <li>
-                        <h3>3月20号  公主邮轮  上海现场面试</h3>
+                        <router-link tag="h3" to="/zpzhaopinxiangqing">3月20号  公主邮轮  上海现场面试</router-link>
                         <p>厨师  |  服务员  |  酒吧服务员  |  免税店  |  摄影师  |  酒吧服务员  |  免税店  |  摄影师</p>
                     </li>
                 </ul>
@@ -64,7 +60,7 @@
             <ul>
                 <li><img src="../../assets/images/lcx4.png" alt=""></li>
                 <li>
-                    <h3>3月20号  公主邮轮  上海现场面试</h3>
+                    <router-link tag="h3" to="/zpzhaopinxiangqing">3月20号  公主邮轮  上海现场面试</router-link>
                     <p>厨师  |  服务员  |  酒吧服务员  |  免税店  |  摄影师  |  酒吧服务员  |  免税店  |  摄影师</p>
                 </li>
             </ul>
@@ -77,7 +73,7 @@
             <ul>
                 <li><img src="../../assets/images/lcx2.png" alt=""></li>
                 <li>
-                    <h3>3月20号  公主邮轮  上海现场面试</h3>
+                    <router-link tag="h3" to="/zpzhaopinxiangqing">3月20号  公主邮轮  上海现场面试</router-link>
                     <p>厨师  |  服务员  |  酒吧服务员  |  免税店  |  摄影师  |  酒吧服务员  |  免税店  |  摄影师</p>
                 </li>
             </ul>
@@ -90,7 +86,7 @@
             <ul>
                 <li><img src="../../assets/images/lcx3.png" alt=""></li>
                 <li>
-                    <h3>3月20号  公主邮轮  上海现场面试</h3>
+                    <router-link tag="h3" to="/zpzhaopinxiangqing">3月20号  公主邮轮  上海现场面试</router-link>
                     <p>厨师  |  服务员  |  酒吧服务员  |  免税店  |  摄影师  |  酒吧服务员  |  免税店  |  摄影师</p>
                 </li>
             </ul>
@@ -103,7 +99,7 @@
             <ul>
                 <li><img src="../../assets/images/lcx4.png" alt=""></li>
                 <li>
-                    <h3>3月20号  公主邮轮  上海现场面试</h3>
+                    <router-link tag="h3" to="/zpzhaopinxiangqing">3月20号  公主邮轮  上海现场面试</router-link>
                     <p>厨师  |  服务员  |  酒吧服务员  |  免税店  |  摄影师  |  酒吧服务员  |  免税店  |  摄影师</p>
                 </li>
             </ul>

@@ -2,7 +2,7 @@
   <div class="hello">
         <div class="top">
             <ul>
-                <li><</li>
+                <li><router-link tag="span" to="/zpshouye"><</router-link></li>
                 <li>招聘详情</li>
             </ul>
         </div>

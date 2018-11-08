@@ -2,7 +2,7 @@
   <div class="hello">
     <div class="top">
         <ul>
-            <li><</li>
+            <li><router-link tag="span" to="/zpshouye"><</router-link></li>
             <li>海洋和谐号</li>
             <li>
                 <img src="../../assets/images/lcx8.png" alt="">

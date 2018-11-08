@@ -2,7 +2,7 @@
   <div class="hello">
     <div class="top">
         <ul>
-            <li><</li>
+            <li><router-link tag="span" to="/zpshouye"><</router-link></li>
             <li>Restaurant Captain</li>
             <li>
                 <img src="../../assets/images/lcx8.png" alt="">
